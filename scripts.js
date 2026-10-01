@@ -2,7 +2,7 @@ console.log(document.title);
 
 // Primer ejercicio
 //Cambia el título "Generation 1 Pokémon" por "Generasión 1 Pokimon".
-document.getElementById("gen-1").innerHTML = "Generasión 1 Pokimon";
+document.getElementById("gen-1").innerText = "Generasión 1 Pokimon";
 console.log("Primer ejercicio: " + document.getElementById("gen-1").innerHTML);
 
 //Segundo ejercicio
